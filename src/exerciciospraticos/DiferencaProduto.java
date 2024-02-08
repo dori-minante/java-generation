@@ -11,7 +11,7 @@ public class DiferencaProduto {
 		
 		System.out.println("Digite o primeiro número: ");
 		n1 = Float.parseFloat(sc.next());
-		System.out.println("Digite  segundo número: ");
+		System.out.println("Digite o segundo número: ");
 		n2 = Float.parseFloat(sc.next());
 		System.out.println("Digite o terceiro número: ");
 		n3 = Float.parseFloat(sc.next());
