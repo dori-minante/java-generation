@@ -1,0 +1,17 @@
+# Arquivos de compilação
+bin/
+target/
+
+# Arquivos de configuração do IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Dependências Maven
+/.m2/
