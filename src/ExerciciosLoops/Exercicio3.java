@@ -25,7 +25,7 @@ public class Exercicio3 {
 
 		System.out.println("\nTotal de pessoas menores de 21 anos: " + menorQue21);
 		System.out.println("Total de pessoas maiores de 50 anos: " + maiorQue50);
-		
+
 		leia.close();
 	}
 }

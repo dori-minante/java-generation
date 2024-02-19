@@ -46,17 +46,18 @@ public class Exercicio4 {
 			System.out.println("Deseja continuar a leitura dos dados de um novo colaborador? (S/N)");
 			continuar = sc.next().charAt(0);
 		}
-		
+
 		System.out.println("O número de pessoas desenvolvedoras Backend é: " + totalBackend);
-		System.out.println("O número de Mulheres Cis e Trans desenvolvedoras Frontend é: " + mulheresCisTransFrontend); 
-		System.out.println("O número de Homens Cis e Trans desenvolvedores Mobile maiores de 40 anos é: " + homensCisTransMobileAcima40);
-		System.out.println("O número de Não Binários desenvolvedores FullStack menores de 30 anos é: " + naoBinariosFullStackMenor30);
+		System.out.println("O número de Mulheres Cis e Trans desenvolvedoras Frontend é: " + mulheresCisTransFrontend);
+		System.out.println("O número de Homens Cis e Trans desenvolvedores Mobile maiores de 40 anos é: "
+				+ homensCisTransMobileAcima40);
+		System.out.println("O número de Não Binários desenvolvedores FullStack menores de 30 anos é: "
+				+ naoBinariosFullStackMenor30);
 		System.out.println("O número total de pessoas que responderam à pesquisa é: " + totalPessoas);
-		
-		
-		if(totalPessoas > 0) {
+
+		if (totalPessoas > 0) {
 			double mediaIdades = (double) somaIdades / totalPessoas;
-			System.out.println("A média de idade das pessoas que responderam à pesquisa é: " + mediaIdades);	
+			System.out.println("A média de idade das pessoas que responderam à pesquisa é: " + mediaIdades);
 		} else {
 			System.out.println("Nenhuma pessoa respondeu a pesquisa");
 		}
