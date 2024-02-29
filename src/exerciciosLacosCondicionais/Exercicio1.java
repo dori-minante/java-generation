@@ -1,4 +1,4 @@
-package ExerciciosLacosCondicionais;
+package exerciciosLacosCondicionais;
 
 public class Exercicio1 {
 

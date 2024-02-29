@@ -1,4 +1,4 @@
-package ExerciciosVetoresMatrizes;
+package exerciciosVetoresMatrizes;
 
 public class Exercicio3Matriz {
 

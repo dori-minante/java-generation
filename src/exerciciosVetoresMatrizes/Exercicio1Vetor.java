@@ -1,4 +1,4 @@
-package ExerciciosVetoresMatrizes;
+package exerciciosVetoresMatrizes;
 
 import java.util.Scanner;
 
